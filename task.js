@@ -93,8 +93,8 @@ window.addEventListener('keydown', onEscCloseModal);
 function onEscCloseModal(evt) {
   if (evt.code === 'Escape') {
     onCloseBtnClick();
-  //     window.removeEventListener("keydown", onEscPress);
-  // window.removeEventListener("keydown", onArrowPress);
+  //  window.removeEventListener("keydown", onEscCloseModal);
+  //  window.removeEventListener("keydown", ScrollImages);
   }
 }
 
